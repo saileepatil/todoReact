@@ -1,0 +1,100 @@
+/* Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f5f9;
+}
+
+/* Main container */
+div {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input box */
+input[type='text'] {
+  padding: 10px;
+  width: 65%;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+/* Add button */
+button {
+  padding: 10px 16px;
+  margin-left: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Todo list */
+ul {
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+/* Each todo item */
+li {
+  background-color: #f8fbff;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Text and checkbox container */
+li span {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+  color: #333;
+}
+
+/* Completed task */
+.strikeThrough {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Delete button inside todo */
+li button {
+  background-color: #e74c3c;
+  padding: 6px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
